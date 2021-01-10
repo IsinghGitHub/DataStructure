@@ -34,7 +34,7 @@ Sum = n(n-1)/2
 i.e O(n2)
 ```
 
-Hence the **time complexity** of Bubble Sort is **O(n2)**.
+Hence the **time complexity** of Bubble Sort is **O(n^2)**.
 
 The main advantage of Bubble Sort is the simplicity of the algorithm.
 
