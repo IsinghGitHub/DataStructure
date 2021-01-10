@@ -12,6 +12,20 @@ Initially `lo` and `hi` are set to the leftmost and rightmost indices of `A
 
 This algorithm determines whether a value exists in a sorted list of N elements. As the loop iterates, eventually either the `target` will be found or `hi` crosses over to become smaller than `lo`, which ends the loop.
 
+### Time Complexity of BinarySearch
+
+The total time complexity of the above algorithm is O(log(n)), where n is the total number of elements in the array.
+
+For `BinaryArraySearch`, the **while** loop iterates no more than `floor`(`log2` (N)) + `1` times. This behavior is truly extraordinary! With one million elements in sorted order, you can locate any element in just `21` passes through the **while** loop.
+
+
+### Some applications are:
+
+When you search for a name of the song in a sorted list of songs, it performs binary search and string-matching to quickly return the results.
+Used to debug in git through git bisect
+
+
+
 
 ## Bubble Short
 
