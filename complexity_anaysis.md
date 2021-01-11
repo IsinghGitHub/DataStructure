@@ -99,7 +99,7 @@ Very interestingly , the amount of work done by these two algorithms is similar 
 
 Check the image below
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/742dbe8d-f521-4458-9a80-20a29370bb77/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/742dbe8d-f521-4458-9a80-20a29370bb77/Untitled.png)
+
 
 The performance of the first algorithm is linear in that its work grows in direct proportion to the size of the problem (problem size of 10, work of 10; 20 and 20; and so on). 
 
@@ -112,4 +112,3 @@ An order of complexity that is worse than polynomial is called exponential. An e
 
 Exponential algorithms are impractical to run with large problem sizes.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/69eab222-1367-45c1-8c95-0ae38ceabe95/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/69eab222-1367-45c1-8c95-0ae38ceabe95/Untitled.png)
