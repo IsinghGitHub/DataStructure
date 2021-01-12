@@ -62,3 +62,42 @@ Following are the Time and Space complexity for the Bubble Sort algorithm.
 - Best Case Time Complexity [Big-omega]: **O(n)**
 - Average Time Complexity [Big-theta]: **O(n2)**
 - Space Complexity: **O(1)**
+
+
+## InsertionSort
+
+
+**Time Complexity:**
+
+In worst case, each element is compared with all the other elements in the sorted array. For N
+
+elements, there will be $N^2$  comparisons. Therefore, the time complexity is O(N^2)
+
+
+### **Quicksort**
+
+The basic version of the algorithm does the following:
+
+- Divide the collection in two (roughly) equal parts by taking a pseudo-random element and using it as a pivot.
+- Elements smaller than the pivot get moved to the left of the pivot,  and elements larger than the pivot to the right of it.
+- This process is repeated for the collection to the left of the pivot, as well as for the array of elements to the right of the pivot until the whole array is sorted.
+
+Quicksort will, more often than not, fail to divide the array into equal parts. This is because the whole process depends on how we choose the pivot.
+
+We need to choose a pivot so that it's roughly larger than half of the elements, and therefore roughly smaller than the other half of the elements. As intuitive as this process may seem, it's very hard to do.
+
+The most straight-forward approach is to simply choose the first (or last) element. This leads to Quicksort, ironically, performing very badly on already sorted (or almost sorted) arrays.
+
+This is how most people choose to implement Quicksort and, since it's simple and this way of choosing the pivot is a very efficient operation (and we'll need to do it repeatedly), this is exactly what we will do.
+
+## Implementation
+
+Let's go through how a few recursive calls would look:
+
+- When we first call the algorithm, we consider all of the elements - from indexes *0* to *n-1* where *n* is the number of elements in our array.
+- If our pivot ended up in position *k*, we'd then repeat the process for elements from *0* to *k-1* and from *k+1* to *n-1*.
+- While sorting the elements from *k+1* to *n-1*, the current pivot would end up in some position *p*. We'd then sort the elements from *k+1* to *p-1* and *p+1* to *n-1*, and so on.
+
+That being said, we'll utilize two functions - `partition()` and `quick_sort()`. The `quick_sort()` function will first `partition()` the collection and then recursively call itself on the divided parts.
+
+Let's start off with the `partition()` function:
