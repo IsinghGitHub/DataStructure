@@ -101,3 +101,6 @@ Let's go through how a few recursive calls would look:
 That being said, we'll utilize two functions - `partition()` and `quick_sort()`. The `quick_sort()` function will first `partition()` the collection and then recursively call itself on the divided parts.
 
 Let's start off with the `partition()` function:
+
+
+
