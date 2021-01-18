@@ -1,12 +1,20 @@
 # Data-Structure
 
+# What is a Data Structure:
+
+A data structure (DS) is a way of organizing data so that it can be used effectively.
+
+# Why Data Structure:
+
+They are an essential ingerdient in creating fast and powerful algorithms. Also Data Structures help in organizing the data. They make the code cleaner and better organized.
+
 # **Binary Array Search**
 
 Binary Array Search is a fundamental algorithm in computer science because of its time complexity. Let’s first review a Python implementation below that searches for `target` in an ordered list, `A`.
 
 ![https://learning.oreilly.com/library/view/learning-algorithms/9781492091059/assets/bas.jpg](https://learning.oreilly.com/library/view/learning-algorithms/9781492091059/assets/bas.jpg)
 
-### *Figure 2-6. Annotated Binary Array Search*
+### _Figure 2-6. Annotated Binary Array Search_
 
 Initially `lo` and `hi` are set to the leftmost and rightmost indices of `A`. While there is a sublist to explore, find the midpoint, `mid`, using integer division. If `A[mid]` is `target` your search is over; otherwise you have learned whether to search the sublist to the left, `A[lo .. mid-1]`, or to the right, `A[mid+1 .. hi]`.
 
@@ -18,14 +26,10 @@ The total time complexity of the above algorithm is O(log(n)), where n is the to
 
 For `BinaryArraySearch`, the **while** loop iterates no more than `floor`(`log2` (N)) + `1` times. This behavior is truly extraordinary! With one million elements in sorted order, you can locate any element in just `21` passes through the **while** loop.
 
-
 ### Some applications are:
 
 When you search for a name of the song in a sorted list of songs, it performs binary search and string-matching to quickly return the results.
 Used to debug in git through git bisect
-
-
-
 
 ## Bubble Short
 
@@ -63,23 +67,20 @@ Following are the Time and Space complexity for the Bubble Sort algorithm.
 - Average Time Complexity [Big-theta]: **O(n2)**
 - Space Complexity: **O(1)**
 
-
 ## InsertionSort
-
 
 **Time Complexity:**
 
 In worst case, each element is compared with all the other elements in the sorted array. For N
 
-elements, there will be $N^2$  comparisons. Therefore, the time complexity is O(N^2)
-
+elements, there will be $N^2$ comparisons. Therefore, the time complexity is O(N^2)
 
 ### **Quicksort**
 
 The basic version of the algorithm does the following:
 
 - Divide the collection in two (roughly) equal parts by taking a pseudo-random element and using it as a pivot.
-- Elements smaller than the pivot get moved to the left of the pivot,  and elements larger than the pivot to the right of it.
+- Elements smaller than the pivot get moved to the left of the pivot, and elements larger than the pivot to the right of it.
 - This process is repeated for the collection to the left of the pivot, as well as for the array of elements to the right of the pivot until the whole array is sorted.
 
 Quicksort will, more often than not, fail to divide the array into equal parts. This is because the whole process depends on how we choose the pivot.
@@ -101,6 +102,3 @@ Let's go through how a few recursive calls would look:
 That being said, we'll utilize two functions - `partition()` and `quick_sort()`. The `quick_sort()` function will first `partition()` the collection and then recursively call itself on the divided parts.
 
 Let's start off with the `partition()` function:
-
-
-
