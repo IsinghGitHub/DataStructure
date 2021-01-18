@@ -8,6 +8,23 @@ A data structure (DS) is a way of organizing data so that it can be used effecti
 
 They are an essential ingerdient in creating fast and powerful algorithms. Also Data Structures help in organizing the data. They make the code cleaner and better organized.
 
+# What is an Abstract Data Type:
+
+An Abstract Data Type (ADT) is and abstraction of data structure which provides only the interface to which a
+data structure must adhere to.
+
+The interface doesn't give any specific details about how something should be implemented or in what programming language.
+
+[List](https://www.notion.so/List-40cd1092203440449e9e5f2e93676c86)
+
+[Queue](https://www.notion.so/Queue-28e7417ff8c5489ea92d910effddd46a)
+
+[Map ](https://www.notion.so/Map-adb98ec432644472b40c05e859f50a8f)
+
+[Vehicle](https://www.notion.so/Vehicle-5929ddc34df84a849bdcb91e63f4aa1c)
+
+[](https://www.notion.so/f3db7fd377fc41a3b4af8bb03622938d)
+
 # **Binary Array Search**
 
 Binary Array Search is a fundamental algorithm in computer science because of its time complexity. Let’s first review a Python implementation below that searches for `target` in an ordered list, `A`.
