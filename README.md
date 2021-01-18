@@ -15,13 +15,13 @@ data structure must adhere to.
 
 The interface doesn't give any specific details about how something should be implemented or in what programming language.
 
-[List](https://www.notion.so/List-40cd1092203440449e9e5f2e93676c86)
+[List](https://en.wikipedia.org/wiki/List_of_data_structures)
 
-[Queue](https://www.notion.so/Queue-28e7417ff8c5489ea92d910effddd46a)
+[Queue](<https://en.wikipedia.org/wiki/Queue_(abstract_data_type)>)
 
-[Map ](https://www.notion.so/Map-adb98ec432644472b40c05e859f50a8f)
+[Map ](https://en.wikipedia.org/wiki/Associative_array)
 
-[Vehicle](https://www.notion.so/Vehicle-5929ddc34df84a849bdcb91e63f4aa1c)
+[Vehicle]()
 
 [](https://www.notion.so/f3db7fd377fc41a3b4af8bb03622938d)
 
