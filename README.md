@@ -119,3 +119,15 @@ Let's go through how a few recursive calls would look:
 That being said, we'll utilize two functions - `partition()` and `quick_sort()`. The `quick_sort()` function will first `partition()` the collection and then recursively call itself on the divided parts.
 
 Let's start off with the `partition()` function:
+
+# Binary Search Trees
+
+A tree is a undirected graph which satifies any of the following definitions:
+
+- An Acyclic connected graph
+
+- A connected graph with N nodes and N-1 edges
+
+- An graph in which any two vertices are connected by exactly one path
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bab69401-e980-43c0-aa18-b6618b71e695/binaryTreeSimple.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bab69401-e980-43c0-aa18-b6618b71e695/binaryTreeSimple.png)
