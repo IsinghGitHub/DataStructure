@@ -151,3 +151,10 @@ Merge Sort algorithm uses the divide and conquer strategy to sort the keys
 stored in a mutable sequence.
 
 ![Merge Sort](images/Screenshot%202021-01-26%20at%2012.08.43%20AM.png)
+
+After the list has been fully subdivided into individual sublists, the sublists are
+then merged back together, two at a time, to create a new sorted list. These sorted
+lists are themselves merged to create larger and larger lists until a single sorted
+list has been constructed.
+
+![Merge Sort](images/mergesort-2.png)
