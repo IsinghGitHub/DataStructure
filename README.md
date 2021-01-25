@@ -150,4 +150,4 @@ The left and right subtree each must also be a binary search tree.
 Merge Sort algorithm uses the divide and conquer strategy to sort the keys
 stored in a mutable sequence.
 
-![Merge Sort](Desktop/Screenshot 2021-01-26 at 12.08.43 AM.png)
+[https://www.notion.so/Merge-Sort-f6cb76a313f9447d825c357180d89cfb#1d3a9f1351d0492e975b8566b69b793f](https://www.notion.so/Merge-Sort-f6cb76a313f9447d825c357180d89cfb#1d3a9f1351d0492e975b8566b69b793f)
