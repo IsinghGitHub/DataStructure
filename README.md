@@ -130,4 +130,24 @@ A tree is a undirected graph which satifies any of the following definitions:
 
 - An graph in which any two vertices are connected by exactly one path
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bab69401-e980-43c0-aa18-b6618b71e695/binaryTreeSimple.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bab69401-e980-43c0-aa18-b6618b71e695/binaryTreeSimple.png)
+# What is a Binary Tree?
+
+A binary tree is a tree for which every node has at most two child nodes.
+
+# What is Binary Search Tree?
+
+A binary search tree is binary tree that satisfies the BST invariant:
+left subtree has smaller elements and right subtree has larger elements.
+
+So primarily Binary Search Tree is a node-based binary tree data structure which has the following properties:
+
+The left subtree of a node contains only nodes with keys lesser than the node’s key.
+The right subtree of a node contains only nodes with keys greater than the node’s key.
+The left and right subtree each must also be a binary search tree.
+
+## Merge Sort
+
+Merge Sort algorithm uses the divide and conquer strategy to sort the keys
+stored in a mutable sequence.
+
+![Merge Sort](~Desktop/Screenshot 2021-01-26 at 12.08.43 AM.png)

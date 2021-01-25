@@ -52,6 +52,6 @@ r = insert(r, 40)
 r = insert(r, 70)
 r = insert(r, 60)
 r = insert(r, 80)
-
+r = insert(r, 10)
 # Print inoder traversal of the BST
 inorder(r)
