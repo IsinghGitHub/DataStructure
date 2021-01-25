@@ -150,4 +150,4 @@ The left and right subtree each must also be a binary search tree.
 Merge Sort algorithm uses the divide and conquer strategy to sort the keys
 stored in a mutable sequence.
 
-![Merge Sort](file:///Users/indrajitsingh/Desktop/Screenshot%202021-01-26%20at%2012.08.43%20AM.png)
+![Merge Sort](images/Screenshot%202021-01-26%20at%2012.08.43%20AM.png)
