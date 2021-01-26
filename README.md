@@ -149,8 +149,8 @@ The left and right subtree each must also be a binary search tree.
 
 ## Merge Sort
 
-Merge Sort algorithm uses the divide and conquer strategy to sort the keys
-stored in a mutable sequence.
+The most direct application of the Divide and Conquer paradigm to the
+sorting problem is the mergesort algorithm.
 
 ![Merge Sort](images/Screenshot%202021-01-26%20at%2012.08.43%20AM.png)
 
@@ -160,3 +160,13 @@ lists are themselves merged to create larger and larger lists until a single sor
 list has been constructed.
 
 ![Merge Sort](images/mergesort-2.png)
+
+## Analysis of Merge Sort:
+
+The merge function for two lists whole length add up to n takes O(n) time. This is because we only need to do a comparison and some assignment for each item that gets added to the final list (of which there are n).
+
+In the tree of recursive calls, the top (or root) costs O(n). The next level has two calls on lists of length n/2.
+
+The second level down has four calls of lists of length n/4. On down the tree, each level i has 2^i calls, each on lists.of length n/2^i.
+
+A nice trick to add these costs up, is to observe that the costs of all nodes on any given level sum to O(n). There are about log2n levels. (How many times can you divide n by 2 until you get down to 1?) So, we have log n levels, each costing O(n), and thus, the total cost is O(n log n).

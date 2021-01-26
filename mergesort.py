@@ -2,14 +2,16 @@
 def mergeSort(arr):
     if len(arr) > 1:
 
+        # Devide!
+
         # Finding the mid of the array
         mid = len(arr)//2
-
         # Dividing the array elements
         left = arr[:mid]
-
         # into 2 halves
         right = arr[mid:]
+
+        # Conquer!
 
         # Sorting the first half
         mergeSort(left)
@@ -18,6 +20,8 @@ def mergeSort(arr):
         mergeSort(right)
 
         i = j = k = 0
+
+        # Combine!
 
         # Copy data to temp arrays L[] and R[]
         while i < len(left) and j < len(right):
