@@ -1,6 +1,6 @@
 # Data-Structure
 
-![Title Image](images/Title_Image.png)
+![Title Image](images/DS.png)
 
 # What is a Data Structure:
 
