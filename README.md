@@ -170,3 +170,23 @@ In the tree of recursive calls, the top (or root) costs O(n). The next level has
 The second level down has four calls of lists of length n/4. On down the tree, each level i has 2^i calls, each on lists.of length n/2^i.
 
 A nice trick to add these costs up, is to observe that the costs of all nodes on any given level sum to O(n). There are about log2n levels. (How many times can you divide n by 2 until you get down to 1?) So, we have log n levels, each costing O(n), and thus, the total cost is O(n log n).
+
+## Lists and Pointer Structure in Python
+
+### Arrays:
+
+An array is a sequential list of data. Being sequential means that each element is stored right after the previous one in memory. If your array is really big and you are low on memory, it could be impossible to find large enough storage to fit your entire array which would lead to problems.
+
+Of course, the flip side of the coin is that arrays are very fast. Since each element follows from the previous one in memory, there is no need to jump around between different
+memory locations.
+
+## Pointer:
+
+Contrary to arrays, pointer structures are lists of items that can be spread out in memory. This is because each item contains one or more links to other items in the structure. What type of links these are dependent on the type of structure we have. If we are dealing with linked lists, then we will have links to the next (and possibly previous) items in the
+structure.
+
+Benefits of Pointers:
+
+They don't require sequential storage space
+
+They can start small and grow arbitrarily as you add more nodes to the structure

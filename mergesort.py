@@ -13,12 +13,14 @@ def mergeSort(arr):
 
         # Conquer!
 
+        # recursive calls to mergeSort for left and right sub arrays
         # Sorting the first half
         mergeSort(left)
-
         # Sorting the second half
         mergeSort(right)
 
+        # initalizes pointers for left (i) right (j) and output array (k)
+        # 3 initalization operations
         i = j = k = 0
 
         # Combine!
