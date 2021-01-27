@@ -159,7 +159,7 @@ then merged back together, two at a time, to create a new sorted list. These sor
 lists are themselves merged to create larger and larger lists until a single sorted
 list has been constructed.
 
-![Merge Sort](images/mergesort-2.png)
+![Merge Sort](images/mergesort.png)
 
 ## Analysis of Merge Sort:
 
